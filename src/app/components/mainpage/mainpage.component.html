@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row">
+    <div class="col col-12 header">
+      
+      <img src="https://pp.userapi.com/c846017/v846017780/475d/EfFuLkBiA1k.jpg" alt="some picture"/>
+    </div>
+  </div>
+  <div class="row">
+      <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              
+              <div class="swiper-slide">
+                  <div class="col col-4 header" *ngFor="let img of images">
+                      <img src="{{img}}"/>
+                    </div>
+              </div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+       
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+       
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+      </div>
+      
+    
+   
+  </div>
+
+</div>
